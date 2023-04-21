@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+
+body {
+  background: url('https://i.pinimg.com/736x/d3/40/da/d340da93cce3e5a59f89a25d7b802265.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  margin-bottom: .5em;
+  padding: 1em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+  color: #FFC947;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 1.5em;
+  background: rgba(193, 235, 187, .9);
+  border-radius: 25px;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background: rgba(0, 128, 0, .9);
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: #007F7F;
+}
+
+input[type=text] {
+  padding: .5em;
+  border-radius: 25px;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 4px #000000;
+}
+
+input[type=submit] {
+  padding: .5em 1em;
+  color: #FFC947;
+  background: #007F7F;
+  font-size: 1em;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 2px 2px 4px #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type=submit]:hover {
+  color: #FFFFFF;
+  background: rgba(0, 128, 0, .9);
+  box-shadow: 4px 4px 6px #000000;
+}
